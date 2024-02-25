@@ -1,0 +1,165 @@
+:root {
+	--primary: #fffd5c;
+	--primaryv2: #ebe9e0;
+	--white: #ffffff;
+	--black: #000000;
+	--dark: #0a0b1d;
+	--grey: #4d4d4d;
+	--greyv2: #7a7a7a;
+}
+
+@media (max-width: 1200px) {
+	.container-fluid {
+		padding: 0 30px;
+	}
+
+	.header-wrap .container-fluid,
+	.full-menu {
+		max-width: calc(100% - 60px);
+	}
+
+	.contact-us-wrap {
+		padding: 60px 0 120px;
+	}
+
+	.contact-us-wrap .title {
+		font-size: 100px;
+	}
+
+	.header-wrap .content .logo a {
+		font-size: 30px;
+	}
+}
+
+@media (max-width: 991px) {
+	.header-wrap .inner-box {
+		margin-top: 30px;
+		padding: 20px 30px;
+	}
+
+	.full-menu {
+		top: 110px;
+	}
+
+	.full-menu.show {
+		height: calc(100vh - 110px);
+	}
+
+	.full-menu .full-menu-left {
+		padding: 0 15px;
+	}
+
+	.full-menu-right .contact-info {
+		padding: 0 10px;
+	}
+
+	.full-menu-right .page-links .links li a {
+		font-size: 40px;
+	}
+
+	.full-menu-left .full-menu-left-content .desc {
+		font-size: 18px;
+		max-width: 70%;
+	}
+
+	.full-menu-right .page-links .links li a::before {
+		width: 30px;
+		height: 30px;
+	}
+
+	.ham-menu .menu svg {
+		width: 40px;
+		height: 40px;
+	}
+
+	.header-wrap .content .logo a {
+		font-size: 26px;
+	}
+
+	.full-menu-right .contact-info .group:not(:last-child) {
+		margin-bottom: 30px;
+	}
+
+	.contact-us-wrap {
+		padding: 50px 0 100px;
+	}
+
+	.contact-us-wrap .title {
+		font-size: 80px;
+		margin-bottom: 30px;
+	}
+
+	.footer-wrap {
+		padding: 30px 0;
+	}
+
+	.contact-form-wrap .row > .col-lg-12:not(:last-child) {
+		margin-bottom: 30px;
+	}
+
+	.footer-wrap .content .inner {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.footer-wrap .footer-links {
+		flex-direction: column;
+	}
+
+	.footer-wrap .social-links {
+		justify-content: center;
+	}
+
+	.footer-wrap .content .center {
+		margin: 20px 0;
+	}
+
+	.footer-wrap .content {
+		padding: 30px 15px;
+		border-radius: 120px;
+	}
+}
+
+@media (max-width: 767px) {
+	.full-menu .full-menu-left {
+		display: none;
+	}
+
+	.full-menu-right .contact-info .right {
+		display: none;
+	}
+
+	.full-menu > div {
+		width: 100%;
+	}
+
+	.full-menu {
+		top: 90px;
+	}
+
+	.full-menu.show {
+		height: calc(100vh - 90px);
+	}
+
+	.header-wrap .inner-box {
+		padding: 15px 0px;
+	}
+	.contact-us-wrap {
+		padding: 30px 0 50px;
+	}
+
+	.contact-us-wrap .title {
+		font-size: 60px;
+		margin-bottom: 20px;
+	}
+}
+
+@media (max-width: 480px) {
+	.contact-us-wrap .title {
+		font-size: 40px;
+	}
+
+	.footer-wrap {
+		padding: 15px 0;
+	}
+}
