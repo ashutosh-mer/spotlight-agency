@@ -5,11 +5,16 @@
     <?php include("include/head.php"); ?>
 </head>
 
-<body>
+<body data-barba="wrapper">
+    <div id="trans">
+        <h1 class="loadText">
+            Spotlight.
+        </h1>
+    </div>
 
     <?php include("include/header.php"); ?>
 
-    <div data-scroll-container>
+    <div data-scroll-container data-barba="container" data-barba-namespace="page-a">
 
         <div class="contact-us-wrap">
             <div class="container">
