@@ -7,30 +7,36 @@
 
 <body data-barba="wrapper">
     <div id="trans">
-        <h1 class="loadText">
-            Spotlight.
-        </h1>
+        <div class="img-box loadText">
+            <img src="assets/images/logo.svg" alt="logo" class="svg">
+        </div>
     </div>
 
     <?php include("include/header.php"); ?>
 
-    <div data-scroll-container data-barba="container" data-barba-namespace="page-a">
+    <div data-scroll-container data-barba="container" data-barba-namespace="page-home">
 
         <!-- banner-starts -->
         <div class="banner-wrap" data-scroll-section>
             <div class="container">
                 <div class="content">
-                    <div class="logo" data-scroll>
+                    <!-- <div class="logo" data-scroll>
                         <a href="#">
                             <img src="assets/images/logo.svg" alt="logo" class="svg">
                         </a>
-                    </div>
-                    <h1 class="h2 subtitle" data-scroll>
-                        You’ve found spotlight, a full service design and development agency
+                    </div> -->
+                    <h1 class="title display-1" data-scroll>
+                        AT LAST.
                     </h1>
+
+                    <p class="subtitle">
+                        You’ve found spotlight, the stage where brands are born,
+                        website comes to life and digital innovation
+                        becomes reality
+                    </p>
                 </div>
             </div>
-            <div class="img-group">
+            <!-- <div class="img-group">
                 <div class="abstract-img" data-scroll data-scroll-speed="">
                     <img src="assets/images/abstract-img.png" alt="abstract-img" width="186" height="186">
                 </div>
@@ -40,7 +46,7 @@
                 <div class="sun-img" data-scroll data-scroll-speed="1">
                     <img src="assets/images/sun-img.png" alt="sun-img" width="597" height="597">
                 </div>
-            </div>
+            </div> -->
         </div>
         <!-- banner-ends -->
 
@@ -52,7 +58,7 @@
                         We deliver projects across design, digital and motion — the sweet spot being where all three
                         intersect.
                     </h2>
-                    <div class="desc">
+                    <div class="desc mt-24">
                         <p>
                             Based in Manchester and working internationally, we partner with a broad range of clients
                             large and small across our core sectors of arts, culture and technology, and no matter the
@@ -61,7 +67,7 @@
                         </p>
                     </div>
 
-                    <div class="btn-wrap">
+                    <div class="btn-wrap mt-24">
                         <a href="#" class="btn btn-secondary">
                             See All Projects
                         </a>

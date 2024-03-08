@@ -7,13 +7,7 @@ jQuery(window).on("scroll load ready", function () {
     headerwrap.removeClass("sticky");
   }
 
-  jQuery(".menu").on("click", function () {
-    jQuery(".header-wrap .links").toggleClass("open");
-    jQuery(this).toggleClass("open");
-    jQuery("body").toggleClass("menu-open pause");
-    jQuery(".full-menu").toggleClass("show");
 
-  });
 
   jQuery('.project-listing-grid').isotope({
     itemSelector: '.project-item',
@@ -23,6 +17,14 @@ jQuery(window).on("scroll load ready", function () {
       gutter: 36,
     }
   })
+});
+
+jQuery(".ham-menu").on("click", function () {
+  jQuery(this).toggleClass("open");
+  jQuery(".header-wrap .links").toggleClass("open");
+  jQuery(".full-menu").toggleClass("show");
+  jQuery("body").toggleClass("menu-open pause");
+
 });
 
 jQuery(document).ready(function () {
@@ -148,6 +150,27 @@ jQuery(document).ready(function () {
     }
   });
 
+  var swiper = new Swiper(".info-slider", {
+    spaceBetween: 36,
+    slidesPerView: "auto",
+    autoplay: {
+      delay: 2000,
+      disableOnInteraction: false,
+    },
+
+    breakpoints: {
+      320: {
+        spaceBetween: 12,
+      },
+      768: {
+        spaceBetween: 16,
+      },
+      992: {
+        spaceBetween: 20,
+      },
+    },
+  });
+
 
 });
 
@@ -156,3 +179,53 @@ jQuery(document).ready(function () {
 //   el: document.querySelector('[data-scroll-container]'),
 //   smooth: true
 // });
+
+
+//Page transition  
+function pagetransition() {
+  var tl = gsap.timeline();
+  tl.to("#trans", { duration: .5, scaleY: 1, transformOrigin: 'bottom', ease: Power3.easeInOut });
+  tl.to(".lefttrans", { x: -200, y: 0, duration: 1, ease: Power3.easeInOut, opacity: 0 });
+  tl.to("#trans", { duration: .5, scaleY: 0, transformOrigin: 'top', ease: Power3.easeInOut, delay: 0 })
+
+}
+
+//Function to Delay
+function delay(n) {
+  n = n || 2000;
+  return new Promise(done => {
+    setTimeout(() => {
+      done();
+    }, n)
+  })
+
+
+}
+
+//Initial Content ANimation
+function contentAnimation() {
+  var tl = gsap.timeline();
+  tl.from(".lefttrans", { x: -200, y: 0, duration: 1, ease: Power3.easeInOut, opacity: 0 });
+}
+
+//Here where magic Happens
+barba.init({
+  //we need sync
+  sync: true,
+  //the transitions array
+  transitions: [{
+    //When the user leaves the page
+    async leave(data) {
+      const done = this.async();
+      //call page transition function
+      pagetransition();
+      //give a small delay
+      await delay(500);
+      done();
+    }
+  }],
+});
+//windows loads, call content animation
+window.onload = () => {
+  contentAnimation();
+}

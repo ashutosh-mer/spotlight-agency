@@ -7,19 +7,19 @@
 
 <body data-barba="wrapper">
     <div id="trans">
-        <h1 class="loadText">
-            Spotlight.
-        </h1>
+        <div class="img-box loadText">
+            <img src="assets/images/logo.svg" alt="logo" class="svg">
+        </div>
     </div>
 
     <?php include("include/header.php"); ?>
 
-    <div data-scroll-container data-barba="container" data-barba-namespace="page-a">
+    <div data-scroll-container data-barba="container" data-barba-namespace="page-contact">
 
         <div class="contact-us-wrap">
             <div class="container">
                 <div class="content text-center">
-                    <h1 class="h1 title">We're all ears</h1>
+                    <h1 class="display-1 title">We're all ears</h1>
                 </div>
 
                 <div class="contact-form-wrap">
