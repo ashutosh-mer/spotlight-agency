@@ -5,7 +5,7 @@
     <?php include("include/head.php"); ?>
 </head>
 
-<body data-barba="wrapper">
+<body data-barba="wrapper" data-scroll-container>
     <div id="trans">
         <div class="img-box loadText">
             <img src="assets/images/logo.svg" alt="logo" class="svg">
@@ -14,9 +14,9 @@
 
     <?php include("include/header.php"); ?>
 
-    <div data-scroll-container data-barba="container" data-barba-namespace="page-contact">
+    <div data-barba="container" data-barba-namespace="page-contact">
 
-        <div class="contact-us-wrap">
+        <div class="contact-us-wrap" data-scroll-section>
             <div class="container">
                 <div class="content text-center">
                     <h1 class="display-1 title">We're all ears</h1>

@@ -5,7 +5,7 @@
     <?php include("include/head.php"); ?>
 </head>
 
-<body data-barba="wrapper">
+<body data-barba="wrapper" data-scroll-container>
     <div id="trans">
         <div class="img-box loadText">
             <img src="assets/images/logo.svg" alt="logo" class="svg">
@@ -14,10 +14,10 @@
 
     <?php include("include/header.php"); ?>
 
-    <div data-scroll-container data-barba="container" data-barba-namespace="page-about-us">
+    <div data-barba="container" data-barba-namespace="page-about-us">
         <div class="aboout-us-wrap">
             <div class="container-fluid">
-                <div class="about-us-banner-wrap">
+                <div class="about-us-banner-wrap" data-scroll-section>
                     <div class="content">
                         <div class="about-img">
                             <img src="assets/images/about-us-img.png" class="w-100" alt="about-us-img">
@@ -63,7 +63,7 @@
                     </div>
                 </div>
 
-                <div class="info-slider-wrap padding-sm">
+                <div class="info-slider-wrap padding-sm" data-scroll-section>
                     <div class="md-container">
                         <div class="content">
                             <h2 class="h3 title">
@@ -119,7 +119,7 @@
                     </div>
                 </div>
 
-                <div class="team-section-wrap padding-sm">
+                <div class="team-section-wrap padding-sm" data-scroll-section>
                     <div class="md-container">
                         <div class="content">
                             <h2 class="h3 title">
@@ -138,7 +138,7 @@
                     </div>
                 </div>
 
-                <div class="craft-journey-wrap">
+                <div class="craft-journey-wrap" data-scroll-section>
                     <div class="md-container">
                         <div class="top-sec-wrap">
                             <div class="top-sec-left">

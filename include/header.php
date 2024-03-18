@@ -1,5 +1,5 @@
 <!-- header-starts -->
-<div class="header-wrap">
+<div class="header-wrap" data-scroll-section>
     <div class="container-fluid">
         <div class="inner-box">
             <div class="content">

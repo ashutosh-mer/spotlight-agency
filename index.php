@@ -66,84 +66,96 @@
                             something you feel connected to, and above all — something you feel proud of.
                         </p>
                     </div>
-
-                    <div class="btn-wrap mt-24">
-                        <a href="#" class="btn btn-secondary">
-                            See All Projects
-                        </a>
-                    </div>
                 </div>
 
                 <div class="project-listing-grid">
 
                     <div class="project-item box-xl">
-                        <div class="box bigdata">
-                            <div class="img-box">
-                                <img src="assets/images/icons/bigdata-icon.svg" alt="icon">
+                        <a href="#">
+                            <div class="box bigdata">
+                                <div class="img-box">
+                                    <img src="assets/images/icons/bigdata-icon.svg" alt="icon">
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="project-item box-sm">
-                        <div class="box dao">
-                            <div class="img-box">
-                                <img src="assets/images/icons/dao-icon.svg" alt="icon">
+                        <a href="#">
+                            <div class="box dao">
+                                <div class="img-box">
+                                    <img src="assets/images/icons/dao-icon.svg" alt="icon">
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
 
                     <div class="project-item box-md">
-                        <div class="box  meety">
-                            <div class="img-box">
-                                <img src="assets/images/icons/meety-icon.svg" alt="icon">
+                        <a href="#">
+                            <div class="box  meety">
+                                <div class="img-box">
+                                    <img src="assets/images/icons/meety-icon.svg" alt="icon">
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
 
                     <div class="project-item box-lg">
-                        <div class="box  streamline">
-                            <div class="img-box">
-                                <img src="assets/images/icons/streamline-icon.svg" alt="icon">
+                        <a href="#">
+                            <div class="box  streamline">
+                                <div class="img-box">
+                                    <img src="assets/images/icons/streamline-icon.svg" alt="icon">
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="project-item box-lg">
-                        <div class="box pillar">
-                            <div class="img-box">
-                                <img src="assets/images/icons/pillar-icon.svg" alt="icon">
+                        <a href="#">
+                            <div class="box pillar">
+                                <div class="img-box">
+                                    <img src="assets/images/icons/pillar-icon.svg" alt="icon">
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
 
                     <div class="project-item box-xl">
-                        <div class="box craftspace">
-                            <div class="img-box">
-                                <img src="assets/images/icons/craftspace-icon.svg" alt="icon">
+                        <a href="#">
+                            <div class="box craftspace">
+                                <div class="img-box">
+                                    <img src="assets/images/icons/craftspace-icon.svg" alt="icon">
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
 
                     <div class="project-item box-xxl">
-                        <div class="box square">
-                            <div class="img-box">
-                                <img src="assets/images/icons/square-icon.svg" alt="icon">
+                        <a href="#">
+                            <div class="box square">
+                                <div class="img-box">
+                                    <img src="assets/images/icons/square-icon.svg" alt="icon">
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
 
                     <div class="project-item box-md">
-                        <div class="box yw">
-                            <div class="img-box">
-                                <img src="assets/images/icons/yw-icon.svg" alt="icon">
+                        <a href="#">
+                            <div class="box yw">
+                                <div class="img-box">
+                                    <img src="assets/images/icons/yw-icon.svg" alt="icon">
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
 
                     <div class="project-item box-sm">
-                        <div class="box yjs">
-                            <div class="img-box">
-                                <img src="assets/images/icons/yjs-icon.svg" alt="icon">
+                        <a href="#">
+                            <div class="box yjs">
+                                <div class="img-box">
+                                    <img src="assets/images/icons/yjs-icon.svg" alt="icon">
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>

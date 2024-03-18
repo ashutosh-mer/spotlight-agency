@@ -17,7 +17,7 @@
     <div data-scroll-container data-barba="container" data-barba-namespace="page-services">
         <div class="services-wrap">
             <div class="container-fluid">
-                <div class="services-banner-wrap">
+                <div class="services-banner-wrap" data-scroll-section>
                     <div class="content">
                         <h1 class="h1 title">
                             From Brand Identity to User Experience
@@ -31,7 +31,7 @@
                     </div>
                 </div>
 
-                <div class="service-block-one padding-sm">
+                <div class="service-block-one padding-sm" data-scroll-section>
                     <div class="content">
                         <h2 class="h3 service-block-title">
                             It's not just a click,<br> it's connection
@@ -96,7 +96,7 @@
                     </div>
                 </div>
 
-                <div class="service-block-two padding-sm">
+                <div class="service-block-two padding-sm" data-scroll-section>
                     <div class="md-container">
                         <div class="content">
                             <h2 class="h3 service-block-title">
@@ -148,7 +148,7 @@
                     </div>
                 </div>
 
-                <div class="service-block-one padding-sm">
+                <div class="service-block-one padding-sm" data-scroll-section>
                     <div class="content">
                         <h2 class="h3 service-block-title">
                             Crafted with care, <br>

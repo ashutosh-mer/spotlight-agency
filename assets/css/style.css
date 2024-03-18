@@ -1094,6 +1094,11 @@ h6,
 	margin-bottom: 44px;
 }
 
+.contact-form-wrap .btn-wrap {
+	max-width: 300px;
+	margin: 0 auto;
+}
+
 /* contact-us-ends */
 
 /* project-detail-starts */
@@ -1490,6 +1495,7 @@ main {
 	transform: scaleY(0);
 	position: absolute;
 	z-index: 9999;
+	top: 0;
 }
 
 .loadText {
@@ -1523,3 +1529,29 @@ main {
 }
 
 /* barba-js-ends */
+
+.banner-wrap {
+	position: relative;
+}
+
+.video-background {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	transform: translate(-50%, -50%);
+}
+
+.video-background {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	transform: translate(-50%, -50%);
+}
+
+#container {
+	height: 500vh;
+}
